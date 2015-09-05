@@ -11,4 +11,6 @@ import scrapy
 class CrawlershoppingItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    productId = scrapy.Field()
+    offerId = scrapy.Field()    
+    offerDescription = scrapy.Field()
