@@ -14,3 +14,4 @@ class CrawlershoppingItem(scrapy.Item):
     productId = scrapy.Field()
     offerId = scrapy.Field()    
     offerDescription = scrapy.Field()
+
